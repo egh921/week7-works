@@ -1,0 +1,210 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #81060A;
+    position: absolute;
+    top: 0;
+    left :0;
+    overflow-y: hidden; overflow-x: hidden;
+}
+
+    /*.clip {
+    height: 550px;
+    width: 550px;
+    position: absolute;
+    background-color: antiquewhite;
+    left: calc(63.5% - 1108px / 2);
+    top: 33px;
+    clip-path: circle(275px at 50% 50%);
+    }*/
+   
+
+    .glass {
+        width: 37%;
+        position: absolute;
+        bottom: 0px;
+        left: calc(63% - 1108px / 2);
+    }
+
+    .title {
+        width: 20%;
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+    }
+
+    .knife1 {
+        width: 3%;
+        height: 12%;
+        position: absolute;
+        top: -250px;
+        left: calc(80% - 1108px / 2);
+    }
+
+    .knife2 {
+        width: 8%;
+        height: 5%;
+        position: absolute;
+        top: 95px;
+        left: 36%;
+    }
+
+    .knife3 {
+        width: 12%;
+        height: 6%;
+        position: absolute;
+        top: 200px;
+        left: 31%;
+    }
+
+    .knife4 {
+        width: 13.5%;
+        height: 13%;
+        position: absolute;
+        top: 300px;
+        left: -210px;
+    }
+
+    .knife5 {
+        width: 12%;
+        height: 9%;
+        position: absolute;
+        top: 335px;
+        left: 31%;
+    }
+
+    .knife6 {
+        width: 6.7%;
+        height: 5%;
+        position: absolute;
+        top: 345px;
+        left: 37%;
+    }
+
+    .knife7 {
+        width: 2.6%;
+        height: 4%;
+        position: absolute;
+        top: 700px;
+        left: calc(80% - 1108px / 2);
+    }
+
+    .knife8 {
+        width: 7%;
+        height: 9%;
+        position: absolute;
+        top: 355px;
+        right: 46.5%;
+    }
+
+    .knife9 {
+        width: 10.5%;
+        height: 15%;
+        position: absolute;
+        top: 345px;
+        right: 41.5%;
+    }
+
+    .knife10 {
+        width: 13%;
+        height: 6%;
+        position: absolute;
+        top: 300px;
+        right: -200px;
+    }
+
+    .knife11 {
+        width: 11%;
+        height: 8%;
+        position: absolute;
+        top: 200px;
+        right: 41%;
+    }
+
+    .knife12 {
+        width: 6.6%;
+        height: 10%;
+        position: absolute;
+        top: 95px;
+        right: 46%;
+    }
+
+
+    @keyframes knife1 {
+        0%{
+            filter:blur(0px);
+        }
+    
+        100%{
+            filter: blur(100px);
+        }
+    }
+
+    @keyframes knife2 {
+        0%{
+            filter:blur(0px);
+        }
+    
+        100%{
+            filter: blur(100px);
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* .blur-sample {
+    animation-name: blur;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.blur-container{
+    position: absolute;
+    top: calc(50% - 540px/ 2); /*세로*/ 
+    /* left : calc(50% - 1850px / 2);} /*가로*/
+
+
+/*.vide-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes blur {
+    0%{
+        filter:blur(100px);
+    }
+
+    100%{
+        filter: blur(0px);
+    }
+}
+
+
+
+
+
+
+/*.type-1, .type-2, .type-3, .type-4, .type-5 {
+    transition: all 0.4s ease-in-out;
+}
+
+.type-3:hover {
+    transform: rotateZ(360deg);
+}
+
+
+/* transform: translate3d(x,y,z)
+    transform: rotateZ(360deg)
